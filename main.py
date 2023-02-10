@@ -51,6 +51,7 @@ wrong_button = Button(image=wrong_image,highlightthickness=0,command=next_card)
 wrong_button.grid(row=1,column=0)
 
 #right_button
+#alignment is still not right
 right_image = PhotoImage(file="images/right.png")
 right_button = Button(image=right_image,highlightthickness=0,command=is_known)
 right_button.grid(row=1,column=1)
